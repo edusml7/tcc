@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cadastro | WedCar's</title>
+  <link rel="stylesheet" href= "./styles/cadastro.css"/>
+</head>
+<body>
+    <header>
+    <div class="container">
+      <h1>WebCar's</h1>
+      <nav>
+        <a href="txt.html">Início</a>
+        <a href="carros.html">Carros</a>
+        <a href="sobrenós.html">Sobre</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+    </div>
+  </header>
+  
+    <section id="cadastro" class="cadastro">
+    <h2>Cadastre-se</h2>
+    <form action="/registrar" method="post">
+      <label for="nome">Nome</label>
+      <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+    
+      <label for="sobrenome">Sobrenome</label>
+      <input type="text" id="sobrenome" name="sobrenome" placeholder="Digite seu sobrenome" required>
+    
+      <label for="cpf">CPF</label>
+      <input type="text" id="cpf" name="cpf" placeholder="Digite seu CPF" required>
+    
+      <label for="telefone">Telefone</label>
+      <input type="tel" id="telefone" name="telefone" placeholder="Digite seu telefone" required>
+    
+      <label for="data">Data de Nascimento</label>
+      <input type="date" id="data" name="data" required>
+    
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+    
+      <label for="senha">Senha</label>
+      <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+    
+      <label for="confirmar-senha">Confirmar Senha</label>
+      <input type="password" id="confirmar-senha" name="confirmar_senha" placeholder="Confirme sua senha" required>
+    
+      <button type="submit">Registre-se</button>
+    </form>
+    
+      <p class="register-link"> já tem conta? <a href="./login.html">Entrar</a></p>
+      <footer>
+        <p>&copy; 2025 WebCar's. Todos os direitos reservados.</p>
+      </footer>
+    </section>
+    <script src="./static/auth.js"></script>
+</body>
+</html>
