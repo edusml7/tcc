@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cadastro | WebCar's</title>
+  <link rel="stylesheet" href="styles/cadastro.css"/>
+</head>
+<body>
+
+<header>
+  <h1>WebCar's</h1>
+</header>
+
+<section id="cadastro" class="cadastro">
+  <h2>Cadastre-se</h2>
+
+  <form action="/cgi-bin/form.py" method="post">
+      <label>Nome</label>
+      <input type="text" name="nome" required>
+
+      <label>Sobrenome</label>
+      <input type="text" name="sobrenome" required>
+
+      <label>CPF</label>
+      <input type="text" name="cpf" required>
+
+      <label>Telefone</label>
+      <input type="tel" name="telefone" required>
+
+      <label>Data de Nascimento</label>
+      <input type="date" name="data" required>
+
+      <label>Email</label>
+      <input type="email" name="email" required>
+
+      <label>Senha</label>
+      <input type="password" name="senha" required>
+
+      <label>Confirmar Senha</label>
+      <input type="password" name="confirmar_senha" required>
+
+      <button type="submit">Registrar</button>
+  </form>
+
+  <p>Já tem conta? <a href="login.html">Entrar</a></p>
+</section>
+
+</body>
+</html>
