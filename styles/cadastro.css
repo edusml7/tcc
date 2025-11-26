@@ -21,9 +21,8 @@
     margin: auto;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
-    padding: 0 50px;
-    background: #111;
+    align-items: center;
+    padding: 0 20px;
   }
   
   nav a {
@@ -36,6 +35,7 @@
   nav a:hover {
     text-decoration: underline;
   }
+  
     
   .cadastro {
     background-color: #222;
@@ -117,3 +117,4 @@ button:hover {
   
 
   
+
